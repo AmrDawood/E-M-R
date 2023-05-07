@@ -65,6 +65,7 @@ function logOut(){
       
 
         <Route path='' element={<ProtectedRoute><Home/></ProtectedRoute>}></Route>
+        <Route path='E-M-R' element={<ProtectedRoute><Home/></ProtectedRoute>}></Route>
         <Route path='home' element={<ProtectedRoute><Home/></ProtectedRoute>}></Route>
         <Route path='moviedetails' element={<ProtectedRoute><MovieDetails/></ProtectedRoute>}>
             <Route path=':id' element={<ProtectedRoute><MovieDetails/></ProtectedRoute>}></Route>
